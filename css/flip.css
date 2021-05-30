@@ -1,0 +1,61 @@
+.flip-container { perspective: 1000; }  	
+
+/* vira os containers frente e verso quando o mouse passa em cima */
+.flip-container:hover .flipper, .flip-container.hover .flipper {  		
+  transform: rotateY(180deg);  	
+}
+    
+.flip-container, .front, .back {  	
+  width: 270px;  	
+  height: 400px;  
+}
+
+@media (min-width: 1900px) {
+  .flip-container, .front, .back {  	
+    width: 350px;  	
+    height: 600px;
+  }
+}
+
+/* define a velocidade da transição */
+.flipper {  	
+  transition: 1s;  	
+  transform-style: preserve-3d;    	
+  position: relative;  
+}
+    
+/* esconde o verso durante a animação */
+.front, .back {  	
+  backface-visibility: hidden;    	
+  position: absolute;  	
+  top: 0;  	
+  left: 0;  
+}
+    
+/* frente posicionada sobre o verso */
+.front { z-index: 2;  }    
+
+/* verso inicialmente escondido */
+.back { transform: rotateY(180deg); }
+
+.front img{
+  width: 270px;  	
+  height: 400px;
+
+  object-fit: cover;
+}
+
+@media (min-width: 1900px) {
+  .front img {
+    width: 350px;  	
+    height: 600px;
+  }
+}
+
+#aivilo .back {
+  background-color: rgba(204, 24, 10, 0.5);
+}
+
+#anubis .back {
+  background-color: darkviolet;
+}
