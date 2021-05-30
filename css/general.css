@@ -79,12 +79,6 @@ footer a:active {
     grid-row-gap: 10px;
 }
 
-.codinome {
-    margin-top: -5px;
-    text-align: center;
-    font-size: 13px;
-}
-
 .footer-card {
     bottom: 10px;
     color: white;
