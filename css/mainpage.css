@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    font-family: 'Rubik', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px #000;
+    font-size: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: orange;
+}
+
+footer a:active {
+    color: yellow;
+}
+
+.personagens {
+    width: 100vw;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    margin-top: 5px;
+}
+
+.minibio {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.minibio p,
+.inventario p{
+    font-size: 0.9em;
+}
+
+.inventario {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+}
+
+.footer-card {
+    bottom: 10px;
+    color: white;
+    font-size: 13px;
+    height: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.link-footer:hover {
+    font-weight: bold;
+}
+
+/************ Card Aivilo ************/
+.titulo-aivilo {
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #000;
+    color: crimson;
+}
+
+#aivilo h2 {
+    font-family: 'Kalam', cursive;
+}
+
+#aivilo h3 {
+    text-shadow: 2px 2px 8px #000;
+    color: crimson;
+}
+
+#aivilo .footer-card a {
+    text-decoration: none;
+    color: orange;
+}
+
+/************ Card Anubis ************/
+
+.titulo-anubis {
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #000;
+    color: mediumpurple;
+}
+
+#anubis h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#anubis h3 {
+    text-shadow: 2px 2px 8px #000;
+    color: mediumpurple;
+}
+
+#anubis .footer-card a {
+    text-decoration: none;
+    color: aqua;
+}
+
+/************ Card Agamennon ************/
+
+.titulo-agamennon {
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #000;
+    color: forestgreen;
+}
+
+#agamennon h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 23px;
+}
+
+#agamennon h3 {
+    text-shadow: 2px 2px 8px #000;
+    color: forestgreen;
+}
+
+#agamennon .footer-card a {
+    text-decoration: none;
+    color: yellow;
+}
+
+/************ Card Agamennon ************/
+
+.titulo-avritt {
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #000;
+    color: hotpink;
+}
+
+#avritt h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#avritt h3 {
+    text-shadow: 2px 2px 8px #000;
+    color: hotpink;
+}
+
+#avritt .footer-card a {
+    text-decoration: none;
+    color: lime;
+}
