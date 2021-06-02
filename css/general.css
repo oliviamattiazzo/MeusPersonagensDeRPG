@@ -46,10 +46,15 @@ section {
     margin-top: 50px;
 }
 
+.pontos-habilidades,
+.valores-unicos,
+.listas-bio {
+    margin-bottom: 5px;
+}
+
 .pontos-habilidades {
     margin-left: 10px;
     display: flex;
-    align-content: space-around;
 }
 
 .pto-habilidade {
@@ -76,10 +81,66 @@ section {
 .valor-pto-habilidade {
     font-size: 2.5em;
     font-weight: bold;
+    color: black;
 }
 
 .titulo-saving-throws {
     margin-bottom: 10px;
+}
+
+.armorclass {
+    height: 70px;
+    width: 90px;
+    border: 5px double black;
+    border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
+    background-color: white;
+}
+
+.armorclass .titulo {
+    color: black;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.listas-bio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.listas,
+.inventario {
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-style: double;
+}
+
+.listas {
+    width: 11em;
+}
+
+.inventario {
+    width: 17em;
+}
+
+.listas p,
+.inventario p {
+    margin-left: 10px;
+}
+
+.listas .titulo,
+.inventario .titulo {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 0;
 }
 
 footer {
