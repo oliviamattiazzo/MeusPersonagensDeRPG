@@ -104,6 +104,25 @@ section {
     margin-top: 3px;
 }
 
+.background-hitpoints {
+    background-image: url("/img/icone_hitpoints.png");
+    background-position: center center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.valores-unicos-digito {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.valores-unicos-titulo {
+    font-size: 12px;
+}
+
 .listas-bio {
     display: flex;
     align-items: flex-start;
@@ -111,7 +130,7 @@ section {
 }
 
 .listas,
-.inventario {
+.inventario-pagina {
     margin-top: 10px;
     color: black;
     background-color: white;
@@ -125,17 +144,17 @@ section {
     width: 11em;
 }
 
-.inventario {
+.inventario-pagina {
     width: 17em;
 }
 
 .listas p,
-.inventario p {
+.inventario-pagina p {
     margin-left: 10px;
 }
 
 .listas .titulo,
-.inventario .titulo {
+.inventario-pagina .titulo {
     text-align: center;
     font-size: 12px;
     margin-top: 10px;
