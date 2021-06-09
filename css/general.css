@@ -24,9 +24,8 @@ section {
 }
 
 .resumo {
-    text-align: left;
-    margin-left: 35px;
-    margin-top: 10px;
+    text-align: center;
+    margin-top: -10px;
     font-size: 15px;
 }
 
@@ -50,6 +49,17 @@ section {
 .valores-unicos,
 .listas-bio {
     margin-bottom: 5px;
+}
+
+.valores-unicos {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.unidade-medida {
+    font-size: 12px;
 }
 
 .pontos-habilidades {
@@ -104,17 +114,8 @@ section {
     margin-top: 3px;
 }
 
-.background-hitpoints {
-    background-image: url("/img/icone_hitpoints.png");
-    background-position: center center;
-    background-size: cover;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-}
-
 .valores-unicos-digito {
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: bold;
     color: white;
 }
@@ -162,6 +163,37 @@ section {
     margin-left: 0;
 }
 
+.features {
+    margin-top: 10px;
+}
+
+.features h2 {
+    text-align: center;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.sumarios {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.racial,
+.classe {
+    width: 250px;
+    margin-right: 10px;
+}
+
+.classe {
+    max-height: 200px;
+    overflow-x: auto;
+}
+
+.source {
+    font-size: 10px;
+    color: darkgray;
+}
+
 footer {
     bottom: 10px;
     color: white;
@@ -174,4 +206,42 @@ footer {
 
 footer a:hover {
     font-weight: bold;
+}
+
+details[close] {
+    min-height: 30px;
+}
+
+details>summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+  
+summary::after {
+    content: ' ►';
+}
+
+details[open] summary:after {
+    content: " ▼";
+}
+
+details[open] {
+    max-width: 250px;
+    text-align: justify;
+}
+
+details[open] .conteudo {
+    font-size: 11px;
+}
+
+.classe::-webkit-scrollbar {
+    width: 5px;
+}
+
+.classe::-webkit-scrollbar-track {
+    border-radius: 10px;
 }

@@ -11,6 +11,13 @@ header h1 {
     font-weight: bold;
 }
 
+h2 {
+    color: orange;
+    font-family: 'Kalam', sans-serif;
+    font-size: 26px;
+    font-weight: none;
+}
+
 .titulo-aivilo {
     color: orange;
 }
@@ -24,4 +31,35 @@ header h1 {
 footer a {
     text-decoration: none;
     color: orange;
+}
+
+.borda-valores-unicos {
+    border: 5px solid orange;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.features summary {
+    color: orange;
+}
+
+.classe::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+.classe::-webkit-scrollbar-thumb:hover {
+    background: orange;
+}
+
+.classe::-webkit-scrollbar-thumb:hover {
+    background: orange;
 }
