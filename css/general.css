@@ -9,10 +9,9 @@ header {
     width: 25vw;
     text-align: center;
     margin-top: 20px;
-    margin-left: 5px;
-    /* display: absolute; */
     float: left;
-    z-index: 2;
+    z-index: 1;
+    position: fixed;
 }
 
 header img {
@@ -21,14 +20,17 @@ header img {
 
 section {
     height: 100vh;
+    padding-top: 10px;
 }
 
-#bio {
-    margin-top: 20px;
+section h2 {
+    font-size: 36px;
+    text-shadow: 2px 2px 8px #000;
 }
 
 .secoes-conteudo {
     float: left;
+    margin-left: 350px;
 }
 
 .resumo {
@@ -199,6 +201,12 @@ section {
 
 .source {
     font-size: 10px;
+    color: darkgray;
+}
+
+.observacao-background {
+    font-size: 12px;
+    margin-top: -5px;
     color: darkgray;
 }
 
