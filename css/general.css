@@ -137,7 +137,6 @@ section h2 {
 .listas-bio {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
 }
 
 .listas,
