@@ -194,6 +194,7 @@ section h2 {
     margin-right: 10px;
 }
 
+.racial,
 .classe,
 .especificacao-classe {
     max-height: 200px;
@@ -253,17 +254,22 @@ details[open] {
 
 details[open] .conteudo {
     font-size: 11px;
+    margin-right: 5px;
 }
 
+.racial::-webkit-scrollbar,
 .classe::-webkit-scrollbar,
 .textos::-webkit-scrollbar,
-.especificacao-classe::-webkit-scrollbar {
+.especificacao-classe::-webkit-scrollbar,
+.anotacoes-aventuras::-webkit-scrollbar {
     width: 5px;
 }
 
+.racial::-webkit-scrollbar-track,
 .classe::-webkit-scrollbar-track,
 .textos::-webkit-scrollbar-track,
-.especificacao-classe::-webkit-scrollbar-track {
+.especificacao-classe::-webkit-scrollbar-track,
+.anotacoes-aventuras::-webkit-scrollbar-track {
     border-radius: 10px;
 }
 
@@ -276,13 +282,42 @@ details[open] .conteudo {
 }
 
 .textos {
-    margin-right: 10px;
+    margin-right: 20px;
     overflow-x: auto;
     height: 80vh;
+    margin-top: 10px;
 }
 
 .texto-corrido p {
     text-align: justify;
     text-indent: 20px;
     font-size: 14px;
+    margin-right: 10px;
+}
+
+.cards-aventuras {
+    display: flex;
+}
+
+.card-aventura {
+    background-color: white;
+    
+    width: 300px;
+    margin-right: 20px;
+    border: 5px double black;
+}
+
+.anotacoes-aventuras {
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 73vh;
+    overflow-x: auto;
+}
+
+.anotacoes-aventuras p {
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: justify;
 }
