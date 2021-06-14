@@ -51,15 +51,26 @@ footer a {
     color: aqua;
 }
 
-.classe::-webkit-scrollbar-thumb {
+.classe::-webkit-scrollbar-thumb,
+.textos::-webkit-scrollbar-thumb,
+.especificacao-classe::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 5px;
 }
 
-.classe::-webkit-scrollbar-thumb:hover {
+.classe::-webkit-scrollbar-thumb:hover,
+.textos::-webkit-scrollbar-thumb:hover,
+.especificacao-classe::-webkit-scrollbar-thumb:hover {
     background: aqua;
 }
 
-.classe::-webkit-scrollbar-thumb:hover {
+.classe::-webkit-scrollbar-thumb:hover,
+.textos::-webkit-scrollbar-thumb:hover,
+.especificacao-classe::-webkit-scrollbar-thumb:hover {
     background: aqua;
+}
+
+.textos h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
 }

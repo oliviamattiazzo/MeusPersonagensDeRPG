@@ -184,16 +184,18 @@ section h2 {
 .sumarios {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .racial,
-.classe {
+.classe, 
+.especificacao-classe {
     width: 250px;
     margin-right: 10px;
 }
 
-.classe {
+.classe,
+.especificacao-classe {
     max-height: 200px;
     overflow-x: auto;
 }
@@ -253,11 +255,15 @@ details[open] .conteudo {
     font-size: 11px;
 }
 
-.classe::-webkit-scrollbar {
+.classe::-webkit-scrollbar,
+.textos::-webkit-scrollbar,
+.especificacao-classe::-webkit-scrollbar {
     width: 5px;
 }
 
-.classe::-webkit-scrollbar-track {
+.classe::-webkit-scrollbar-track,
+.textos::-webkit-scrollbar-track,
+.especificacao-classe::-webkit-scrollbar-track {
     border-radius: 10px;
 }
 
@@ -267,4 +273,16 @@ details[open] .conteudo {
 
 .personagens::-webkit-scrollbar-track {
     border-radius: 10px;
+}
+
+.textos {
+    margin-right: 10px;
+    overflow-x: auto;
+    height: 80vh;
+}
+
+.texto-corrido p {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 14px;
 }
