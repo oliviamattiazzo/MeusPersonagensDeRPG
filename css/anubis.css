@@ -53,20 +53,16 @@ footer a {
 
 .classe::-webkit-scrollbar-thumb,
 .textos::-webkit-scrollbar-thumb,
-.especificacao-classe::-webkit-scrollbar-thumb {
+.especificacao-classe::-webkit-scrollbar-thumb,
+.anotacoes-aventuras::-webkit-scrollbar-thumb {
     background: black;
     border-radius: 5px;
 }
 
 .classe::-webkit-scrollbar-thumb:hover,
 .textos::-webkit-scrollbar-thumb:hover,
-.especificacao-classe::-webkit-scrollbar-thumb:hover {
-    background: aqua;
-}
-
-.classe::-webkit-scrollbar-thumb:hover,
-.textos::-webkit-scrollbar-thumb:hover,
-.especificacao-classe::-webkit-scrollbar-thumb:hover {
+.especificacao-classe::-webkit-scrollbar-thumb:hover,
+.anotacoes-aventuras::-webkit-scrollbar-thumb:hover {
     background: aqua;
 }
 
@@ -89,4 +85,10 @@ footer a {
 
 .titulo-ultima-atualizacao {
     color: aqua;
+}
+
+.viagem {
+    color: #41295a;
+    font-size: 16px;
+    margin-left: 60px;
 }

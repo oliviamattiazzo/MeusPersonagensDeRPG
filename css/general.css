@@ -332,6 +332,14 @@ details[open] .conteudo {
     color: darkorange;
 }
 
+.status-andamento {
+    color: blue;
+}
+
+.status-aguardando-inicio {
+    color: goldenrod;
+}
+
 .anotacoes-aventuras {
     color: black;
     font-size: 12px;

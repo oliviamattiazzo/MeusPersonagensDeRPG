@@ -82,11 +82,7 @@ footer a:active {
 }
 
 .personagens::-webkit-scrollbar-thumb:hover {
-    background: orange;
-}
-
-.personagens::-webkit-scrollbar-thumb:hover {
-    background: orange;
+    background: indigo;
 }
 
 /************ Card Aivilo ************/
