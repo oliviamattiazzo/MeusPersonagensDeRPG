@@ -321,3 +321,7 @@ details[open] .conteudo {
     margin-right: 5px;
     text-align: justify;
 }
+
+.anuncio {
+    font-weight: bold;
+}
