@@ -307,12 +307,37 @@ details[open] .conteudo {
     border: 5px double black;
 }
 
+.card-aventura h4 {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -4px;
+    margin-bottom: 5px;
+}
+
+.card-aventura h5 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: black;
+}
+
+.status-finalizada {
+    color: darkgreen;
+}
+
+.status-pausada {
+    color: darkorange;
+}
+
 .anotacoes-aventuras {
     color: black;
     font-size: 12px;
     margin-left: 10px;
     margin-right: 5px;
-    height: 73vh;
+    height: 67vh;
     overflow-x: auto;
 }
 
@@ -320,8 +345,4 @@ details[open] .conteudo {
     margin-top: 5px;
     margin-right: 5px;
     text-align: justify;
-}
-
-.anuncio {
-    font-weight: bold;
 }
