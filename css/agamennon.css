@@ -1,40 +1,36 @@
 body {
-    background: linear-gradient(to right, #41295a, #2f0743);
+    background: linear-gradient(to right, #000000, #0f9b0f);
     font-family: 'Rubik', sans-serif;
     color: whitesmoke;
     overflow: hidden;
 }
 
 header h1 {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
     font-weight: bold;
 }
 
 h2 {
-    color: aqua;
-    font-family: 'Shadows Into Light', sans-serif;
+    color: goldenrod;
+    font-family: 'Permanent Marker', cursive;
     font-size: 26px;
     font-weight: none;
-}
-
-.titulo-anubis {
-    color: aqua;
 }
 
 .menu a {
     display: block;
     text-decoration: none;
-    color: aqua;
+    color: goldenrod;
 }
 
 footer a {
     text-decoration: none;
-    color: aqua;
+    color: goldenrod;
 }
 
 .borda-valores-unicos {
-    border: 5px solid aqua;
+    border: 5px solid goldenrod;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -48,7 +44,7 @@ footer a {
 }
 
 .features summary {
-    color: aqua;
+    color: goldenrod;
 }
 
 .classe::-webkit-scrollbar-thumb,
@@ -63,16 +59,16 @@ footer a {
 .textos::-webkit-scrollbar-thumb:hover,
 .especificacao-classe::-webkit-scrollbar-thumb:hover,
 .anotacoes-aventuras::-webkit-scrollbar-thumb:hover {
-    background: aqua;
+    background: goldenrod;
 }
 
 .textos h3 {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 30px;
 }
 
 .highlight {
-    background-color: rgb(0, 255, 255, 0.5);
+    background-color: rgb(218, 165, 32, 0.5);
 }
 
 .card-aventura h3 {
@@ -80,39 +76,45 @@ footer a {
     font-size: 20px;
     margin-top: 10px;
     text-align: center;
-    font-family: 'Shadows Into Light', sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .titulo-ultima-atualizacao {
-    color: aqua;
+    color: goldenrod;
 }
 
 .viagem {
-    color: #41295a;
+    color: #0f9b0f;
     font-size: 16px;
-    margin-left: 60px;
 }
 
 .anotacoes-aventuras h1 {
-    color: #41295a;
+    color: #0f9b0f;
     font-size: 12px;
     text-align: right;
     margin-right: 5px;
 }
 
+.anotacoes-aventuras h2 {
+    font-size: 12px;
+    text-align: center;
+    text-shadow: none;
+    color: #0f9b0f;
+}
+
 .criticos-sessao {
-    background: #41295a;
+    background: #0f9b0f;
     color: white;
     margin-top: 5px;
     border-radius: 5px;
     margin-right: 5px;
-    border: 1px solid aqua;
+    border: 1px solid goldenrod;
     padding: 7px;
 }
 
 .criticos-sessao h1 {
     color: white;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
     font-size: 16px;
 }
@@ -123,9 +125,11 @@ footer a {
 
 .criticos-sessao .valor {
     font-size: 14px;
-    color: aqua;
+    color: goldenrod;
+    font-weight: bold;
 }
 
 .criticos-sessao .pericia {
-    color: aqua;
+    color: goldenrod;
+    font-weight: bold;
 }
