@@ -297,6 +297,7 @@ details[open] .conteudo {
 
 .cards-aventuras {
     display: flex;
+    margin-top: 5px;
 }
 
 .card-aventura {
@@ -313,15 +314,6 @@ details[open] .conteudo {
     text-align: center;
     margin-top: -4px;
     margin-bottom: 5px;
-}
-
-.card-aventura h5 {
-    font-weight: bold;
-    font-size: 12px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    color: black;
 }
 
 .status-finalizada {
@@ -345,8 +337,8 @@ details[open] .conteudo {
     font-size: 12px;
     margin-left: 10px;
     margin-right: 5px;
-    height: 67vh;
     overflow-x: auto;
+    margin-bottom: 5px;
 }
 
 .anotacoes-aventuras p {
